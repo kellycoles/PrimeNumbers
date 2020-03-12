@@ -32,8 +32,16 @@ namespace PrimeNumbers
                         // is not prime
                         break;
                     }
+
                 }
+                // Print the number if it is not composite
+                if (!isNumberComposite)
+                    Console.Write($"{j}, ");
+                else
+                    isNumberComposite = false;
+
             }
+
         }
     }
 }
