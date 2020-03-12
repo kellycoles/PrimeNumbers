@@ -41,7 +41,9 @@ namespace PrimeNumbers
                     isNumberComposite = false;
 
             }
-
+            // This line is to make the program wait for user input,
+            // instead of immediately closing
+            Console.ReadLine();
         }
     }
 }
